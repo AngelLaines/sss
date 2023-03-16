@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+table#info {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: arial;
+    font-size: 10px;
+}
+
+h3 {
+    font-family: arial;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    background-color: black;
+    display: block;
+}
+
+nav {
+    width: 800px;
+    height: 40px;
+    background-color: white;
+    display: block;
+}
+
+main {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    display: inline-block;
+}
+
+footer {
+    width: 800px;
+    height: 100px;
+    background-color: gray;
+    display: inline-block;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+.inputLogin {
+    width: 150px;
+}
+
+.separador {
+    margin-top: 10px;
+}
+
+.centrar {
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+input#btn_submit {
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+
+.show-pass, .label-show{
+    position: relative;
+    margin-top: 2px;
+    margin-left: 3px;
+    display:inline-block;
+    vertical-align: middle;
+}

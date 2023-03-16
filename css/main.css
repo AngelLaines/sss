@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    background-color: black;
+    display: block;
+}
+
+nav {
+    display: block;
+    width: 800px;
+    height: 40px;
+    background-color: white;
+}
+
+main {
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+}
+
+footer {
+    width: 800px;
+    height: 100px;
+    background-color: gray;
+}
+
+section#left {
+    width: 300px;
+    height: 396px;
+    margin-top: 4px;
+    background-color: white;
+    float: left;
+}
+
+section#right {
+    width: 500px;
+    height: 396px;
+    margin-top: 4px;
+    background-color: white;
+    float: left;
+}
+
+table#datos {
+    width: 250px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: arial;
+    font-size: 10px;
+}
+
+.boton {
+    cursor: pointer;
+}
+
+.over:hover {
+    color: rgb(182, 163, 18);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    text-align: right;
+}
+
+input#btnLogout,input#btnMantenimiento, input#btnSoftInst {
+    padding: 0;
+    border: none;
+    background: white;
+    margin-right: 10px;
+}
+
+input#btnRegistro {
+    padding: 0;
+    border: none;
+    background: white;
+    margin-left: 10px;
+}
+
+input#btnUsuarios {
+    padding: 0;
+    border: none;
+    background: white;
+    margin-left: 10px;
+}
+
+input#btnInicio {
+    padding: 0;
+    border: none;
+    background: white;
+    margin-left: 10px;
+}
+
+th#row-left {
+    width: 100px;
+    text-align: right;
+}
+
+th#row-right {
+    width: 150px;
+    text-align: left;
+}
+
+h5 {
+    font-family: arial;
+    font-size: 10px;
+}
+
+div#top {
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+.inputs {
+    width: 150px;
+}
+
+.pass {
+    width: 95px;
+}
+
+.titulos {
+    margin-bottom: 5px;
+}
+
+.btn-radio-char,
+label {
+    position: relative;
+    margin-top: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.chk {
+    margin-left: 2px;
+}
+
+.radios {
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+table#showed_data {
+    width: 490px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: arial;
+    font-size: 10px;
+}
+
+input#btn_guardar {
+    margin-top: 5px;
+}
+
+hr {
+    margin-top: 10px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }

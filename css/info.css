@@ -1,0 +1,8 @@
+section#top { width: 800px; height: 4px; background-color: white; }
+
+div#div_center { width: 800px; height: 300px; margin-top: 10px; background-color: white; }
+table#info { width: 400px; margin: 0 auto; border: 1px solid black; font-family: arial; font-size: 10px; }
+th#r-left { width: 200px; text-align: right; }
+th#r-right { width: 200px; text-align: left; }
+th#l-fecha { text-align: center; }
+th#r-fecha { text-align: center; }
